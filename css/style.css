@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Fugaz+One&display=swap');
 
 :root {
     --primary: #A8D5BA;
@@ -11,7 +11,7 @@
 
 html {
     font-size: 18px;
-    font-family: 'Pacifico';
+    font-family: 'Emilys Candy';
 }
 
 body {
@@ -75,7 +75,7 @@ nav a:hover {
 }
 
 .contacteaza a {
-    font-family: 'Pacifico';
+    font-family: 'Emilys Candy';
     font-size: 25px;
     text-decoration: none;
     color: black;
@@ -108,10 +108,10 @@ nav a:hover {
 
 .index-h1 {
     width: 60%;
-    padding-top: 70px;
+    padding-top: 80px;
     position: absolute;
     top: 50px;
-    left: 36%;
+    left: 28%;
     font-size: 45px;
     filter: drop-shadow(7px 7px rgba(248, 174, 0, 0.323));
 
@@ -139,7 +139,7 @@ nav a:hover {
     width: 10%;
     position: absolute;
     top: 450px;
-    right: 110px;
+    right: 135px;
     border-radius: 20px;
 }
 
@@ -201,12 +201,12 @@ nav a:hover {
     border-radius: 15px;
     background-color: var(--secondary);
     top: 400px;
-    left: 53%;
+    left: 45%;
     padding: 5px 5px;
     text-decoration: none;
     color: black;
     font-size: 30px;
-    font-family: 'Pacifico';
+    font-family: 'Emilys Candy';
 }
 
 .buton1 {
@@ -214,12 +214,12 @@ nav a:hover {
     border-radius: 15px;
     background-color: var(--secondary);
     top: 400px;
-    left: 65%;
+    left: 60%;
     padding: 5px 5px;
     text-decoration: none;
     color: black;
     font-size: 30px;
-    font-family: 'Pacifico';
+    font-family: 'Emilys Candy';
 }
 
 .buton2 {
@@ -232,7 +232,7 @@ nav a:hover {
     text-decoration: none;
     color: black;
     font-size: 30px;
-    font-family: 'Pacifico';
+    font-family: 'Emilys Candy';
 }
 
 .buton:hover {
@@ -248,7 +248,7 @@ nav a:hover {
 }
 
 .centered {
-    font-family: 'Pacifico';
+    font-family: 'Emilys Candy';
     text-align: center;
     color: black;
     font-size: 30px;
@@ -675,7 +675,7 @@ video {
         font-size: 25px;
         width: 80%;
         right: 20%;
-        top: 27%;
+        top: 5%;
         text-align: center;
     }
 
@@ -687,21 +687,21 @@ video {
     }
 
     .fundal {
-        height: 550px;
+        height: 540px;
     }
 
     .index-fundal {
-        height: 550px;
+       height: 540px;
     }
 
     .index-section {
-        height: 550px;
+        height: 540px;
     }
 
     .index-img2 {
-        top: 55%;
+        top: 25%;
         width: 15%;
-        right: 120px;
+        right: 110px;
         display: block;
     }
 
@@ -903,7 +903,7 @@ video {
         left: 75px;
         top: -15px;
     }
-    
+
 }
 
 @media (max-width:494px) {
@@ -1037,6 +1037,30 @@ video {
 
 }
 
+@media (max-width:435px) {
+     .index-h11 {
+        top: 32%;
+        left: 100px;
+    }
+
+    .index-h1 {
+        top: 27%;
+        left: 40px;
+    }
+
+    .index-img1 {
+        width: 75%;
+        left: 25%;
+    }
+
+    .index-img2 {
+        top: 50%;
+        width: 20%;
+        right: 11%;
+    }
+
+}
+
 @media (max-width:405px) {
     .index-h1 {
         padding-top: 25%;
@@ -1056,11 +1080,12 @@ video {
 
 @media (max-width:400px) {
 
+
     .index-h1 {
         width: 80%;
         font-size: 20px;
         top: 29.9%;
-        left: 35px;
+        left: 39px;
     }
 
     .index-h11 {
@@ -1115,9 +1140,32 @@ video {
     }
 }
 
+@media (max-width:395px) {
+     .index-h1 {
+        top: 27%;
+    }
+
+    .index-h11 {
+        top: 30%;
+    }
+
+    .index-img2 {
+        top: 50%;
+    }
+}
+
 @media (max-width:380px) {
+
+    nav a {
+        position: relative;
+        padding: 0;
+        left: 35px;
+        top: -15px;
+    }
+
     .index-h1 {
         top: 33%;
+        left: 10%;
     }
 
     .index-h11 {
@@ -1139,7 +1187,7 @@ video {
     }
 
     .index-img2 {
-        top: 58%;
+        top: 55%;
     }
 }
 
@@ -1153,6 +1201,15 @@ video {
     }
 
     .index-img2 {
-        top: 53%;
+        top: 50%;
     }
+
+    .adrese {
+        font-size: 13.5px;
+        height: 240px;
+    }
+
+    .index-p {
+    font-size: 25px;
+}
 }
